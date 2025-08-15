@@ -10,8 +10,8 @@ This repository implements [DDPM](https://arxiv.org/abs/2006.11239) with trainin
 ## Data preparation
 For setting up the mnist dataset:
 1. Download the MNist dataset and name it as mnist_train.csv
-2. 
-Follow - https://github.com/explainingai-code/Pytorch-VAE#data-preparation
+2. Make a directory data/train/images and data/test/images and place the dataset under data directory
+3. Run python -m utils/extract_mnist_images.py
 
 
 ## Configuration
